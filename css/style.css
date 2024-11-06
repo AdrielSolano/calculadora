@@ -122,11 +122,11 @@ button:hover {
 
 @media (max-width: 768px) { 
     .pantalla-container { 
-        height: 50px; 
+        height: 90px; 
     } 
     .pantalla {
-         padding: 10px; 
-         font-size: 20px; 
+         padding: 25px; 
+         font-size: 45px; 
     } 
     .botones {
          gap: 5px; 
@@ -139,11 +139,11 @@ button:hover {
             
 @media (max-width: 480px) { 
     .pantalla-container { 
-        height: 40px; 
+        height: 60px; 
     }
    .pantalla { 
-        padding: 5px; 
-        font-size: 15px;
+        padding: 20px; 
+        font-size: 35px;
     } 
    .botones { 
         gap: 5px; 
