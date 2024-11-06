@@ -26,6 +26,8 @@ body {
     border-radius: 20px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
     position: relative;
+    width: 100%;
+    max-width: 400px;
 }
 
 .pantalla-container { 
@@ -67,7 +69,7 @@ body {
 
 button {
     min-height: 60px;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
@@ -122,12 +124,15 @@ button:hover {
 
 @media (max-width: 768px) { 
     .pantalla-container { 
-        height: 90px; 
+        height: 60px; 
     } 
     .pantalla {
-         padding: 25px; 
-         font-size: 45px; 
+         padding: 15px; 
+         font-size: 25px; 
     } 
+    .marca-agua {
+        font-size: 18px;
+    }
     .botones {
          gap: 5px; 
     } 
@@ -139,12 +144,15 @@ button:hover {
             
 @media (max-width: 480px) { 
     .pantalla-container { 
-        height: 60px; 
+        height: 50px; 
     }
    .pantalla { 
-        padding: 20px; 
-        font-size: 35px;
+        padding: 10px; 
+        font-size: 20px;
     } 
+    .marca-agua {
+        font-size: 14px;
+    }
    .botones { 
         gap: 5px; 
     }
