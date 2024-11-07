@@ -119,3 +119,9 @@ button:hover {
 .numero {
     font-size: 30px;
 }
+
+@media (max-width: 768px) {
+    .marca-agua {
+        font-size: 30px;
+    }
+}
