@@ -12,7 +12,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
 }
 
 .title {
@@ -27,21 +26,20 @@ body {
     border-radius: 20px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
     position: relative;
-    width: 100%;
-    max-width: 400px;
 }
 
 .pantalla-container { 
     position: relative; 
     width: 100%; 
-    height: 100px; 
+    height: 80px; 
     margin-bottom: 10px; }
 
 .pantalla {
     width: 100%;
-    height: 100px;
+    height: 80px;
     border: none;
     background: #f0f0f0;
+    margin-bottom: 10px;
     border-radius: 5px;
     text-align: right;
     padding: 20px;
@@ -69,7 +67,7 @@ body {
 
 button {
     min-height: 60px;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
@@ -121,4 +119,3 @@ button:hover {
 .numero {
     font-size: 30px;
 }
-            
