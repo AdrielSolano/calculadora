@@ -48,8 +48,6 @@ body {
     font-size: 30px;
     color: #022e2e;
     position: relative;
-    top: 0;
-    left: 0;
 }
 
 .marca-agua {
@@ -124,22 +122,3 @@ button:hover {
     font-size: 30px;
 }
             
-@media (max-width: 480px) { 
-    .pantalla-container { 
-        height: 50px; 
-    }
-   .pantalla { 
-        padding: 10px; 
-        font-size: 20px;
-    } 
-    .marca-agua {
-        font-size: 14px;
-    }
-   .botones { 
-        gap: 5px; 
-    }
-   button { 
-        min-height: 40px; 
-        font-size: 20px; 
-   }
-}
