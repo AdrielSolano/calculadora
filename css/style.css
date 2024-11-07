@@ -34,7 +34,7 @@ body {
 .pantalla-container { 
     position: relative; 
     width: 100%; 
-    height: 80px; 
+    height: 100px; 
     margin-bottom: 10px; }
 
 .pantalla {
